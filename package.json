@@ -1,0 +1,41 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/hooks": "^2.6.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.9.1",
+    "@react-navigation/native": "^5.7.5",
+    "@react-navigation/stack": "^5.9.2",
+    "apisauce": "^1.1.2",
+    "expo": "~39.0.2",
+    "expo-constants": "^9.2.0",
+    "expo-image-picker": "~9.1.0",
+    "expo-random": "~9.0.0",
+    "expo-status-bar": "~1.0.2",
+    "firebase": "7.9.0",
+    "formik": "^2.1.4",
+    "gh-pages": "^3.1.0",
+    "lottie-react-native": "~2.6.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-map": "^0.0.1",
+    "react-native-maps": "0.27.1",
+    "react-native-progress": "^4.1.2",
+    "react-native-screens": "~2.10.1",
+    "react-native-web": "~0.13.12",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}

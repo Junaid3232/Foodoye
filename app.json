@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "FoodOyee",
+    "slug": "FoodOyee",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.foodoyee",
+      "config": {
+        "googleMapsApiKey": "<ios maps api key>"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.foodoyee",
+      "config": {
+        "googleMaps": {
+          "apiKey": "<android maps key>"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "description": ""
+  }
+}
